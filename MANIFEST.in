@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_nextcloudTimelapse/templates *
+recursive-include octoprint_nextcloudTimelapse/translations *
+recursive-include octoprint_nextcloudTimelapse/static *

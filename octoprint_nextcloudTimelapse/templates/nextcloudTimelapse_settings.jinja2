@@ -1,0 +1,38 @@
+<h3>Nextcloud Timelapse</h3>
+<form class="form-horizontal" onsubmit="return false;">
+<div class="control-group">
+    <label class="control-label">Server address:</label>
+    <div class="controls">
+        <input class="input-text" type="text"
+               data-bind="value: settings.plugins.nextcloudTimelapse.server_address"></input>
+    </div>
+    <br/>
+    <label class="control-label">Username</label>
+    <div class="controls">
+        <input class="input-text" type="text"
+               data-bind="value: settings.plugins.nextcloudTimelapse.username"></input>
+    </div>
+    <br/>
+    <label class="control-label">Password</label>
+    <div class="controls">
+        <input class="input-text" type="password"
+               data-bind="value: settings.plugins.nextcloudTimelapse.password"></input>
+    </div>
+    <br/>
+    <label class="control-label">Directory</label>
+    <div class="controls">
+        <input class="input-text" type="text"
+               data-bind="value: settings.plugins.nextcloudTimelapse.dir_path"></input>
+        <br/>
+        <p>Directory to upload the timelapses to. Make sure that this directory exists.</p>
+    </div>
+    <br/>
+    <div class="controls">
+        <input class="input-checkbox" type="checkbox"
+               data-bind="checked: settings.plugins.nextcloudTimelapse.delete"></input>
+        Delete timelapse after upload?
+    </div>
+
+
+</div>
+</form>
