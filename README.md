@@ -17,4 +17,6 @@ All settings can be found under `Setting` -> `Nextcloud Timelapse`
 
 
 ## Used Librarys
-pyocclient by ©owncoud licensd with MIT`
+* [pyocclient](https://github.com/owncloud/pyocclient)
+  * Copyright (c) 2014 Vincent Petry <pvince81@owncloud.com>
+  * Licensed under [MIT License](pyocclient_license)
